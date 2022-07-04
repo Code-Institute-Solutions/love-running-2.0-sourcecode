@@ -324,3 +324,10 @@ footer {
         padding: 0 20px;
     }
 }
+
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
